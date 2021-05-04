@@ -1,2 +1,2 @@
-https://www.josedomingo.org/pledin/2020/02/redes-en-docker/
-https://png2pdf.com/es/
+FROM nginx:1.19-alpine
+ADD index.html /usr/share/nginx/html
